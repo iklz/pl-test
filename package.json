@@ -1,0 +1,40 @@
+{
+  "name": "playrix-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack --mode production --config webpack.config.prod.js",
+    "build": "webpack --mode development --config webpack.config.dev.js",
+    "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iki",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "terser-webpack-plugin": "^2.1.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@pixi/app": "^5.1.5",
+    "@pixi/constants": "^5.1.0",
+    "@pixi/core": "^5.1.5",
+    "@pixi/display": "^5.1.3",
+    "@pixi/graphics": "^5.1.5",
+    "@pixi/interaction": "^5.1.5",
+    "@pixi/math": "^5.1.0",
+    "@pixi/runner": "^5.1.1",
+    "@pixi/settings": "^5.1.3",
+    "@pixi/sprite": "^5.1.5",
+    "@pixi/ticker": "^5.1.3",
+    "@pixi/utils": "^5.1.3",
+    "animejs": "^3.1.0",
+    "image-size": "^0.8.3"
+  }
+}

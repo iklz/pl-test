@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Playable test</title>
+
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    canvas {
+      position: absolute;
+    }
+
+    canvas.hide {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    var sprite = <%= htmlWebpackPlugin.options.sprite  %>;
+  </script>
+</body>
+</html>
